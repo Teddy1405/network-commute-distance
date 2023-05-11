@@ -26,11 +26,10 @@ Project was created by [[https://github.com/da-james][David James]] for the Inst
 * Installing and Setting Up
   Before beginning, you will need to run any bash commands from your terminal.
   If you're running a Mac, search for the application called ~terminal~.
-  If you're running Windows, search for the application called "Windows Subsystem for Linux" after installing Docker.
+  If you're running Windows, search for the application called ~powershell~.
 
   1. _Installing Docker_
      1. There are several ways to install Docker depending on your machine follow [[https://docs.docker.com/install/][this]] link and read the instructions for your machine to get the platform running
-        - NOTE :: If you're running Windows, it is recommended to use the WSL 2 backend installation option.
      2. After installing Docker, sometimes priviledges are needed for the container to run on the system
         #+BEGIN_SRC bash
           # This command is to make sure that docker has the right priviledges to run
